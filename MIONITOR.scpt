@@ -18,6 +18,8 @@ property newMenu : class "NSMenu"
 -- so that (what I assume is) a bug in Ventura and Sonoma doesn't cause the session to restart
 -- and then require what ever midi host applications don't require a restart
 
+-- Note: Devices can be referred to by their Bonjour name by using "DeviceName._udp.local" for the IP address.
+
 -- Credits:
 -- uses Late Night Software's PrefsStorageLib
 -- Menu bar code based on https://apple.stackexchange.com/a/293392
